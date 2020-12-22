@@ -13,3 +13,6 @@
 .van-button--default {
   color: #666 !important;
 }
+.van-button--normal {
+  font-size: 13px !important;
+}
