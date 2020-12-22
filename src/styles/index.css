@@ -1,12 +1,8 @@
-@import "./icon.less";
-// body {
-//   background-color: pink;
-// }
 .van-nav-bar__content {
   background-color: #3296fa !important;
-  .van-nav-bar__title {
-    color: #fff;
-  }
+}
+.van-nav-bar__content .van-nav-bar__title {
+  color: #fff;
 }
 .van-icon-arrow-left::before {
   color: #fff;
