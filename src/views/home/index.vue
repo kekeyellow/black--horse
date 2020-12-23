@@ -1,5 +1,11 @@
 <template>
-  <div>home</div>
+  <div>
+    <!-- <van-icon class-prefix="iconfont" icon="iconsousuo"/> -->
+    <van-ico class="iconfont iconshipin"></van-ico>
+    <i class="iconfont iconshipin"></i>
+
+      <i class="iconfont iconshouji"></i>
+  </div>
 </template>
 
 <script>

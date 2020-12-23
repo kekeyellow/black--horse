@@ -11,7 +11,6 @@
     "amfe-flexible": "^2.2.1",
     "axios": "^0.21.0",
     "core-js": "^2.6.12",
-    "less-loader": "^7.1.0",
     "sass-loader": "^10.1.0",
     "vant": "^2.11.3",
     "vue": "^2.6.12",
@@ -32,6 +31,7 @@
     "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^6.2.2",
     "less": "^4.0.0",
+    "less-loader": "^7.1.0",
     "postcss-pxtorem": "^5.1.1",
     "vue-template-compiler": "^2.6.12"
   },
