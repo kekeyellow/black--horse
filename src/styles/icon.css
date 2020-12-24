@@ -72,21 +72,3 @@
 .iconzuopin:before {
   content: "\e614";
 }
-.van-nav-bar__content {
-  background-color: #3296fa !important;
-}
-.van-nav-bar__content .van-nav-bar__title {
-  color: #fff;
-}
-.van-icon-arrow-left::before {
-  color: #fff;
-}
-.van-button::before {
-  background-color: #ededed !important;
-}
-.van-button--default {
-  color: #666 !important;
-}
-.van-button--normal {
-  font-size: 13px !important;
-}
