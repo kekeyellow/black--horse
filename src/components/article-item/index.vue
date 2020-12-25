@@ -3,11 +3,15 @@
     <div slot="title" class="title">{{article.title}}</div>
     <div slot="label">
       <div v-if='article.cover.type === 3'>
-        <div class="tupian">
-          <van-image class="img"
-            v-for="(index,image) in article.cover.images" :key="index"
+        <div
+          class="tupian"
+        >
+          <van-image
+            v-for="(img, index) in article.cover.images"
+            :key="index"
+            class="img"
             fit="cover"
-            :src="image"
+            :src="img"
           />
         </div>
       </div>
@@ -53,8 +57,11 @@ export default {
   }
   .img {
     flex: 1;
-    width: 123px;
-    height: 81px;
+    width: 111px;
+    height: 71px;
+    &:not(:last-child) {
+      padding-right: 4px;
+    }
   }
   .rightimg{
     width: 106px;

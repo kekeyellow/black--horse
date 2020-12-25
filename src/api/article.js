@@ -6,3 +6,10 @@ export const getArticles = params => {
     params
   })
 }
+
+export const getAllChannels = () => {
+  return request({
+    method: 'GET',
+    url: '/app/v1_0/channels'
+  })
+}
